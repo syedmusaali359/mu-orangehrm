@@ -17,7 +17,7 @@ services:
       - mysql-data:/var/lib/mysql
   # Your Application Container
   app:
-    image: musketeers/orangehrm:latest
+    image: musketeers/orangehrm:5.5
     container_name: orange-container
     restart: always
     depends_on:
